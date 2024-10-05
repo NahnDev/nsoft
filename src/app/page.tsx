@@ -1,7 +1,7 @@
 "use client";
 
-import { BaseButton } from "@/components/common/Button/BaseButton";
-import { LogoHeader } from "@/components/common/Header";
+import { BaseButton } from "@/components/common/button/BaseButton";
+import { LogoHeader } from "@/components/common/header";
 import AutoScrollBox from "@/components/landing/ScreenBox";
 import { useRouter } from "next/navigation";
 
@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
       </AutoScrollBox>
-      <AutoScrollBox className="bg-red-700">
+      <AutoScrollBox className="bg-orange-700">
         <div className="grid grid-cols-2 text-white">
           <div></div>
           <div className="flex flex-col items-center justify-center">

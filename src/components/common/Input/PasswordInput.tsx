@@ -3,7 +3,7 @@ import { faEye, faEyeSlash, faLock } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useMemo, useState } from "react";
 import { useBoolean } from "usehooks-ts";
-import HoldButton from "../Button/HoldButton";
+import HoldButton from "../button/HoldButton";
 
 const DEFAULT_PLACEHOLDER = "Type your password";
 
@@ -83,7 +83,7 @@ function PasswordChecking(props: { errors: string[] }) {
       {PASSWORD_VALIDATIONS.map((error) => {
         const isValid = !props.errors.includes(error.key);
         return (
-          <div key={error.key} className={`flex items-center ${isValid ? "text-green-500" : "text-red-500"}`}>
+          <div key={error.key} className={`flex items-center ${isValid ? "text-green-500" : "text-orange-500"}`}>
             <div className="w-4 h-4 flex-shrink-0">{isValid ? "✔" : "✖"}</div>
             <div className="ml-1">{error.message}</div>
           </div>

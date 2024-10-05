@@ -1,17 +1,17 @@
 import { useState } from "react";
-import { Button } from "../common/Button";
-import { FacebookLoginButton } from "../common/Button/FacebookLoginButton";
-import { GoogleLoginButton } from "../common/Button/GoogleLoginButton";
-import { Or } from "../common/Divider";
-import { LogoHeader } from "../common/Header/LogoHeader";
-import { PasswordInput } from "../common/Input";
-import { MailInput } from "../common/Input/MailInput";
-import { Label } from "../common/Label";
+import { Button } from "../common/button";
+import { FacebookLoginButton } from "../common/button/FacebookLoginButton";
+import { GoogleLoginButton } from "../common/button/GoogleLoginButton";
+import { Or } from "../common/divider";
+import { LogoHeader } from "../common/header/LogoHeader";
+import { PasswordInput } from "../common/input";
+import { MailInput } from "../common/input/MailInput";
+import { Label } from "../common/label";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faQrcode, faSignIn } from "@fortawesome/free-solid-svg-icons";
-import { IconButton } from "../common/Button/IconButton";
+import { IconButton } from "../common/button/IconButton";
 import { parseAsBoolean, useQueryState } from "nuqs";
-import { Link } from "../common/Text";
+import { Link } from "../common/text";
 
 export default function BaseLoginForm() {
   const [mail, setMail] = useState("");

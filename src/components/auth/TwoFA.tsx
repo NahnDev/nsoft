@@ -1,6 +1,6 @@
 import { HStack, PinInput, PinInputField } from "@chakra-ui/react";
-import { Button } from "../common/Button";
-import { LogoHeader } from "../common/Header";
+import { Button } from "../common/button";
+import { LogoHeader } from "../common/header";
 
 export default function TwoFA() {
   return (

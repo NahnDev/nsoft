@@ -26,6 +26,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .size-screen {
+    width: 100vw;
+    height: 100vh;
+  }
 }
 
 /* Custom small scrollbar */

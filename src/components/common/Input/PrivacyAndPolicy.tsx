@@ -8,7 +8,7 @@ import {
   Checkbox,
   useBoolean,
 } from "@chakra-ui/react";
-import SessionHeader from "../Header/SessionHeader";
+import SessionHeader from "../header/SessionHeader";
 import { useRef } from "react";
 import { InView } from "react-intersection-observer";
 

@@ -1,7 +1,7 @@
 "use client";
 
-import { CommandBar } from "@/components/common/CommandBar";
-import { TShortcut } from "@/components/common/CommandBar/Shortcut";
+import { CommandBar } from "@/components/common/command-bar";
+import { TShortcut } from "@/components/common/command-bar/Shortcut";
 
 const shortcuts: TShortcut[] = [
   {

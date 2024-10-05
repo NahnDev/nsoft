@@ -2,8 +2,8 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/packages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -13,6 +13,10 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       gridTemplateColumns: {
+        "auto-1fr": "auto 1fr",
+        "1fr-auto": "1fr auto",
+      },
+      gridTemplateRows: {
         "auto-1fr": "auto 1fr",
         "1fr-auto": "1fr auto",
       },

@@ -1,16 +1,16 @@
 import { faRegistered } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import { FacebookLoginButton } from "../common/Button/FacebookLoginButton";
-import { GoogleLoginButton } from "../common/Button/GoogleLoginButton";
-import { Or } from "../common/Divider";
-import { LogoHeader } from "../common/Header";
-import { PasswordInput } from "../common/Input";
-import { MailInput } from "../common/Input/MailInput";
-import { Label } from "../common/Label";
-import { BaseButton } from "../common/Button/BaseButton";
-import { PrivacyAndPolicy } from "../common/Input/PrivacyAndPolicy";
-import { Link } from "../common/Text";
+import { FacebookLoginButton } from "../common/button/FacebookLoginButton";
+import { GoogleLoginButton } from "../common/button/GoogleLoginButton";
+import { Or } from "../common/divider";
+import { LogoHeader } from "../common/header";
+import { PasswordInput } from "../common/input";
+import { MailInput } from "../common/input/MailInput";
+import { Label } from "../common/label";
+import { BaseButton } from "../common/button/BaseButton";
+import { PrivacyAndPolicy } from "../common/input/PrivacyAndPolicy";
+import { Link } from "../common/text";
 
 export default function RegisterForm() {
   const [mail, setMail] = useState("");

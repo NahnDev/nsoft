@@ -1,7 +1,7 @@
 "use client";
 
 import { Flex } from "@chakra-ui/react";
-import { LoginWithQrCode } from "@/components/common/QrCode";
+import { LoginWithQrCode } from "@/components/common/qr-code";
 import BaseLoginForm from "@/components/auth/BaseLoginForm";
 import { parseAsBoolean, useQueryState } from "nuqs";
 
