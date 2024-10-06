@@ -20,8 +20,8 @@ export default function ProductCollections() {
   return (
     <div className="size-full overflow-hidden">
       <div className="p-2 flex flex-row">
-        <SearchInput className="bg-white rounded-full overflow-hidden" value={search} onChange={setSearch} />
-        <BaseButton variant="primary" size="sm" className="ml-2">
+        <SearchInput className="bg-white rounded-lg overflow-hidden" value={search} onChange={setSearch} />
+        <BaseButton variant="primary" size="sm" className="ml-2 rounded-lg">
           Add new product
         </BaseButton>
       </div>

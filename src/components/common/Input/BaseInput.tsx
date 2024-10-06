@@ -72,14 +72,14 @@ export function BaseInput(props: BaseInputProps) {
         }}
         onKeyDown={handleKeydown}
       />
-      {props.clear && props.value && (
+      {props.clear && (
         <div
           className={clsx([
             "group",
             "size-10 flex justify-center items-center",
             "cursor-pointer",
             "duration-500",
-            focus ? "opacity-100" : "opacity-0",
+            props.value ? "opacity-100" : "opacity-0",
             "hover:opacity-100",
           ])}
           onClick={hanldeClear}

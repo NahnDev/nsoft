@@ -47,11 +47,11 @@ export default function Product(props: ProductProps) {
 function QualityPicker() {
   return (
     <div className="grid grid-cols-3 rounded-full ">
-      <IconButton variant="outline" className="size-8 rounded-full" icon={faMinus} />
-      <div className="size-8 flex justify-center items-center">
+      <IconButton variant="outline" className="!size-8 rounded-full" icon={faMinus} />
+      <div className=" flex justify-center items-center">
         <span className="font-bold">1</span>
       </div>
-      <IconButton variant="outline" className="size-8 rounded-full" icon={faPlus} />
+      <IconButton variant="outline" className="!size-8 rounded-full" icon={faPlus} />
     </div>
   );
 }

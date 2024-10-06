@@ -22,6 +22,7 @@ export function SearchInput(props: MailInputProps) {
       placeholder={`${placeholder} (alt+s)`}
       clear
       outline
+      className={props.className}
       value={props.value}
       onChange={props.onChange}
     />
